@@ -7,6 +7,6 @@ from api.views import AlunoViewSet
 router = DefaultRouter(trailing_slash=False)
 
 router.register(r'alunos', AlunoViewSet)
-router.register(r'professor', AlunoViewSet)
+# router.register(r'professor', AlunoViewSet)
 
 urlpatterns = router.urls

@@ -17,7 +17,7 @@ class Aluno(models.Model):
 
 
 
-class Aluno(models.Model):
+class Professor(models.Model):
     teste = models.CharField(
     max_length=20,
     null=False,
