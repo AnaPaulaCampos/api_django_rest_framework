@@ -12,3 +12,5 @@ class Aluno(models.Model):
     max_length=8,
     null=False,
     blank=False)
+
+    
