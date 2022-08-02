@@ -13,4 +13,19 @@ class Aluno(models.Model):
     null=False,
     blank=False)
 
+
+
+
+
+class Aluno(models.Model):
+    teste = models.CharField(
+    max_length=20,
+    null=False,
+    blank=False)
+
+    codigo = models.CharField(
+    max_length=8,
+    null=False,
+    blank=False)
+
     
