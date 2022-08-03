@@ -1,7 +1,7 @@
 from django.contrib import admin
 
-from api.models import Aluno
+from api.models import Pedido
 
 # Register your models here.
 
-admin.site.register(Aluno)
+admin.site.register(Pedido)
