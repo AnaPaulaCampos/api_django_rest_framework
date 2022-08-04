@@ -16,8 +16,9 @@
 7 testar a aplicação -> python manager.py runserver -> -> http://localhost:8000/admin
 
 ----------- criar a api----------
-1 criar a pasta api dentro da pasta pedidos
-2 criar o arquivo de serializacao -> pedidosSerializer
-3 criar o arquivo de visualizacao -> pedidosViewSet
-4 configurar a rota no arquivo -> urls.py dentro da pasta config
-5 testar a aplicação -> python manager.py runserver -> http://localhost:8000/api/v1/pedidos
+1 Instalar o djangorestframework -> pip install djangorestframework
+2 criar a pasta api dentro da pasta pedidos
+3 criar o arquivo de serializacao -> pedidosSerializer
+4 criar o arquivo de visualizacao -> pedidosViewSet
+5 configurar a rota no arquivo -> urls.py dentro da pasta config
+6 testar a aplicação -> python manager.py runserver -> http://localhost:8000/api/v1/pedidos
