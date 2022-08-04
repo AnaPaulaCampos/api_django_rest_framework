@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from api.api import pedidosviewsets as pedidosViewSets
-from cars.api.carsviews import CarsAPIView
+from api.api import atualizarpedidosview as atualizar
 # from cars.api import CarsAPIView as carsview
 
 
@@ -15,7 +15,8 @@ route.register(r'pedidos', pedidosViewSets.PedidoViewSet, basename='Pedidos'),
 # route.register(r'cars', viewsset.Car, basename='Pedidos'),
 
 urlpatterns1 = [
-    path('cars/', CarsAPIView.as_view()),
+    path('cars/', atualizar.AtualizarPedidoAPIView.as_view()),
+    path('cars/<str:ID>/', atualizar.AtualizarPedidoAPIView.as_view()),
 ]
 
 urlpatterns1 += route.urls

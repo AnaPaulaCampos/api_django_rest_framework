@@ -16,4 +16,11 @@ class PedidoSerializer(serializers.ModelSerializer):
       'horarioCriacaoPedido' ,
     ]
 
-
+class AtualizarPedidoSerializer(serializers.ModelSerializer):
+  
+  class Meta:
+    model = Pedido
+    fields = [
+      'ID',
+      'estadoAtualPedido',
+    ]
