@@ -16,4 +16,4 @@ class PedidoSerializer(serializers.ModelSerializer):
       'horarioCriacaoPedido' ,
     ]
 
-  
+

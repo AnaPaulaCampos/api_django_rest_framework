@@ -13,3 +13,5 @@ class PedidoViewSet(viewsets.ModelViewSet):
   serializer_class = PedidoSerializer
   
    
+
+   
