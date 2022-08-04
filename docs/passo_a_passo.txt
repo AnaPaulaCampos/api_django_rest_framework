@@ -1,0 +1,23 @@
+1 abrir o git nas pasta do projeto
+2 criar a pasta do projeto dentro da pasta projeto
+3 criar projeto -> django-admin startproject config . (espaço + ponto)
+4 abrir o vscode -> code .
+5 criar o banco -> python manager.py migrate
+6 criar o super usuario -> python manager.py createsuperuser
+7 testar a aplicação -> python manager.py runserver -> http://localhost:8000/
+
+--------- criar aplicação-----
+1 python manager.py startapp pedidos
+2 acessar o a pasta config e adiciona no arquivo -> settings.py o APP - Na opcao -> APP_INSTALLER
+3 acessa pasta pedidos e o arquivo -> models.py -> criar a estrutura
+4 acessar o arquivo admin.py e registrar o Model
+5 criar as migrations -> python manager.py makemigrations
+6 atualiza o banco -> python manager.py migrate
+7 testar a aplicação -> python manager.py runserver -> -> http://localhost:8000/admin
+
+----------- criar a api----------
+1 criar a pasta api dentro da pasta pedidos
+2 criar o arquivo de serializacao -> pedidosSerializer
+3 criar o arquivo de visualizacao -> pedidosViewSet
+4 configurar a rota no arquivo -> urls.py dentro da pasta config
+5 testar a aplicação -> python manager.py runserver -> http://localhost:8000/api/v1/pedidos
