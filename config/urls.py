@@ -15,8 +15,8 @@ route.register(r'pedidos', pedidosViewSets.PedidoViewSet, basename='Pedidos'),
 # route.register(r'cars', viewsset.Car, basename='Pedidos'),
 
 urlpatterns1 = [
-    path('cars/', atualizar.AtualizarPedidoAPIView.as_view()),
-    path('cars/<str:ID>/', atualizar.AtualizarPedidoAPIView.as_view()),
+    path('atualizar/', atualizar.AtualizarPedidoAPIView.as_view()),
+    path('atualizar/<str:ID>/', atualizar.AtualizarPedidoAPIView.as_view()),
 ]
 
 urlpatterns1 += route.urls

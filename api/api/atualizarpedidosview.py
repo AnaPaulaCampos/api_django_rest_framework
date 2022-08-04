@@ -26,7 +26,7 @@ class AtualizarPedidoAPIView(APIView):
                 serializer = AtualizarPedidoSerializer(pedido)
             return Response(serializer.data)
         except:  
-            return Response({"message": "Estado nao permitido !", "Pedido": pedido.estadoAtualPedido},status = status.HTTP_400_BAD_REQUEST )
+            return Response({"message": "Mudanca de Estado nao permitido !", "Pedido": {pedido.estadoAtualPedido}},status = status.HTTP_400_BAD_REQUEST )
 
 
 

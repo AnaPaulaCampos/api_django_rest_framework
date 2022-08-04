@@ -10,11 +10,15 @@ class Pedido(models.Model):
     RECEIVED = "Recebido"
     CONFIRMED = "Confirmado"
     DISPATCHED = "Despachado"
+    DELIVERED= "Entregue"
+    CANCELED = "Cancelado"
 
     STATUS_PEDIDO = [
         (RECEIVED, "Recebido"),
         (CONFIRMED, "Confirmado"),
         (DISPATCHED, "Despachado"),
+        (DELIVERED, "Entregue"),
+        (CANCELED, "Cancelado"),
     ]
 
     ID = models.AutoField(primary_key=True, editable=False)
