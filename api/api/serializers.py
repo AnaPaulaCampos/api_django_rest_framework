@@ -12,7 +12,7 @@ class PedidoSerializer(serializers.ModelSerializer):
       'nomeCliente',
       'nomeProduto',
       'valorProduto',
-      'estadoAtualPedido' ,
+      'estadoAtualPedido',
       'horarioCriacaoPedido' ,
     ]
 

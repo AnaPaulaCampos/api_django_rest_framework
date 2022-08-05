@@ -1,6 +1,4 @@
 
-from http.client import responses
-import json
 from api.api.pedidoservices import PedidoServices
 from api.api.serializers import AtualizarPedidoSerializer
 from api.models import Pedido
@@ -17,8 +15,10 @@ class AtualizarPedidoAPIView(APIView):
     def put(self, request, *args, **kwargs):
         data = request.data
         pedido = Pedido.objects.get(ID=1)
-        novoEstado = data["estadoAtualPedido"]
-        podeAtualizarEstado = PedidoServices.validarEstado(pedido.estadoAtualPedido, novoEstado)
+        podeAtualizarEstado = PedidoServices.validarEstado(pedido.estadoAtualPedido, data["estadoAtualPedido"])
+       
+       
+       
         try:
             if podeAtualizarEstado:
                 pedido.estadoAtualPedido = novoEstado
@@ -26,7 +26,7 @@ class AtualizarPedidoAPIView(APIView):
                 serializer = AtualizarPedidoSerializer(pedido)
             return Response(serializer.data)
         except:  
-            return Response({"message": "Mudanca de Estado nao permitido !", "Pedido": {pedido.estadoAtualPedido}},status = status.HTTP_400_BAD_REQUEST )
+            return Response({"message": "Mudanca de Estado NAO permitido !", "Pedido": {pedido.estadoAtualPedido}},status = status.HTTP_400_BAD_REQUEST )
 
 
 
