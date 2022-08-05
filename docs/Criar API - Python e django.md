@@ -1,9 +1,11 @@
-# Criar API - Python e django
+# Criar API - Python - Desafio Coco Bambu 
 
 ## Baclog
 
 - [x] Ambiente
 - [x] Configuração do Projeto
+	- [ ] Arquitetura
+	- [ ] Design	
 - [x] Modelagem
 - [x] Serializer
 - [x] ViewSets
@@ -11,12 +13,6 @@
 - [ ] Conteinerização
 - [ ] Qualidade de Código e Testes
 
-
-### 
-
-- 1 dia
-
-### 
 
 - arquitetura
 - design
