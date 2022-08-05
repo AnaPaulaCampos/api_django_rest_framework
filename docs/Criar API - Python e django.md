@@ -2,24 +2,26 @@
 
 ## Baclog
 
-### Configuração do Projeto
+- [x] Ambiente
+- [x] Configuração do Projeto
+- [x] Modelagem
+- [x] Serializer
+- [x] ViewSets
+- [x] Routers
+- [ ] Conteinerização
+- [ ] Qualidade de Código e Testes
+
+
+### 
 
 - 1 dia
 
-### Modelagem
+### 
 
 - arquitetura
 - design
 
-### Serializer
 
-### ViewSets
-
-### Routers
-
-### Conteinerização
-
-### Qualidade de Código e Testes
 
 ## Ambiente
 
