@@ -1,23 +1,19 @@
+[]([http://www.exemplodeurl.com](https://cocobambu.com/wp-content/uploads/2022/06/coco-bambu_logo-header.png))
+
 # Criar API - Python - Desafio Coco Bambu 
 
 ## Baclog
 
 - [x] Ambiente
 - [x] Configuração do Projeto
-	- [ ] Arquitetura
-	- [ ] Design	
+	- [x] Arquitetura
+	- [x] Design	
 - [x] Modelagem
 - [x] Serializer
 - [x] ViewSets
 - [x] Routers
 - [ ] Conteinerização
 - [ ] Qualidade de Código e Testes
-
-
-- arquitetura
-- design
-
-
 
 ## Ambiente
 
@@ -89,9 +85,82 @@
 
 	- http://127.0.0.1:8000/
 
-## Desafio
 
-### API
+## Criar App Pedido
+
+### 1 python manager.py startapp pedidos
+
+### 2 acessar a pasta config
+
+- settings.py 
+
+	- Na opcao -> APP_INSTALLER
+
+		-  adiciona nome do APP 
+
+### 3 acessa pasta pedidos
+
+- o arquivo -> models.py
+
+	- criar os atributos
+
+### 4 acessar o arquivo admin.py
+
+- registrar o Model
+
+### 5 criar as migrations 
+
+- python manager.py makemigrations
+
+### 6 atualiza o banco
+
+- python manager.py migrate
+
+### 7 testar a aplicação
+
+- python manager.py runserver
+- http://localhost:8000/admin
+
+## gerando APIs
+
+### 1 Instalar o djangorestframework
+
+-  pip install djangorestframework
+
+### 2 criar a pasta api dentro da pasta pedidos
+
+- criar as subpastas
+
+### 3 criar o arquivo de serializacao 
+
+- pedidosSerializer
+
+### 4 criar o arquivo de visualizacao
+
+- pedidosViewSet
+
+### 5 configurar a rota no arquivo
+
+- urls.py dentro da pasta config
+
+### 6 testar a aplicação
+
+- python manager.py runserver
+- http://localhost:8000/api/v1/pedidos
+
+## Criando um usuário
+
+### administrador
+
+- python manage.py createsuperuser
+
+### abra um navegador
+
+- http://127.0.0.1:8000/admin
+
+## Sobre o Desafio
+
+### Construir - API
 
 - "delivery-api"
 
@@ -335,75 +404,4 @@
 
 				- É fácil alterar os testes 
 
-## Criar App Pedido
-
-### 1 python manager.py startapp pedidos
-
-### 2 acessar a pasta config
-
-- settings.py 
-
-	- Na opcao -> APP_INSTALLER
-
-		-  adiciona nome do APP 
-
-### 3 acessa pasta pedidos
-
-- o arquivo -> models.py
-
-	- criar os atributos
-
-### 4 acessar o arquivo admin.py
-
-- registrar o Model
-
-### 5 criar as migrations 
-
-- python manager.py makemigrations
-
-### 6 atualiza o banco
-
-- python manager.py migrate
-
-### 7 testar a aplicação
-
-- python manager.py runserver
-- http://localhost:8000/admin
-
-## gerando APIs
-
-### 1 Instalar o djangorestframework
-
--  pip install djangorestframework
-
-### 2 criar a pasta api dentro da pasta pedidos
-
-- criar as subpastas
-
-### 3 criar o arquivo de serializacao 
-
-- pedidosSerializer
-
-### 4 criar o arquivo de visualizacao
-
-- pedidosViewSet
-
-### 5 configurar a rota no arquivo
-
-- urls.py dentro da pasta config
-
-### 6 testar a aplicação
-
-- python manager.py runserver
-- http://localhost:8000/api/v1/pedidos
-
-## Criando um usuário
-
-### administrador
-
-- python manage.py createsuperuser
-
-### abra um navegador
-
-- http://127.0.0.1:8000/admin
 
