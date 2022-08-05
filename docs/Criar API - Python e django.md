@@ -1,4 +1,4 @@
-[]([http://www.exemplodeurl.com](https://cocobambu.com/wp-content/uploads/2022/06/coco-bambu_logo-header.png))
+[](https://cocobambu.com/wp-content/uploads/2022/06/coco-bambu_logo-header.png)
 
 # Criar API - Python - Desafio Coco Bambu 
 
