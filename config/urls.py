@@ -13,8 +13,8 @@ route = routers.DefaultRouter()
 route.register(r'pedidos', pedidosViewSets.PedidoViewSet, basename='Pedidos'),
 
 urlpatterns1 = [
-    path('atualizar/', atualizar.AtualizarPedidoAPIView.as_view()),
-    path('atualizar/<int:ID>/', atualizar.AtualizarPedidoAPIView.as_view()),
+    path('atualizarpedido/', atualizar.AtualizarPedidoAPIView.as_view()),
+    path('atualizarpedido/<str:id>/', atualizar.AtualizarPedidoAPIView.as_view()),
 ]
 
 urlpatterns1 += route.urls

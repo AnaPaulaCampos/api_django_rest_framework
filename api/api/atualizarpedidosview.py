@@ -13,12 +13,11 @@ class AtualizarPedidoAPIView(APIView):
     serializer_class = AtualizarPedidoSerializer
 
     def put(self, request, *args, **kwargs):
-        data = request.data
+        ID = request.POST.get('ID')
         pedido = Pedido.objects.get(ID=1)
+        data = request.data
         podeAtualizarEstado = PedidoServices.validarEstado(pedido.estadoAtualPedido, data["estadoAtualPedido"])
-       
-       
-       
+
         try:
             if podeAtualizarEstado:
                 pedido.estadoAtualPedido = novoEstado
