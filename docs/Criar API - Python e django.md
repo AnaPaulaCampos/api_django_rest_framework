@@ -12,36 +12,17 @@
 - [x] Serializer
 - [x] ViewSets
 - [x] Routers
-- [ ] ## Urls
-
-### /api/v1
-
-### /api/v1/pedidos
-
-- GET
-
-### /api/v1/pedidos
-
-- POST
-
-### /api/v1/pedidos/{id}
-
-- GET
-
-### /api/v1/pedidos/{id}
-
-- PUT
-
-### /api/v1/pedidos/{id}
-
-- DELETE
-
-### /api/v1/atualizarpedidos/{id}
-
-- PUT
-
-
+	- [x] GET - /api/v1
+	- [x] GET - /api/v1/pedidos
+	- [x] POST -/api/v1/pedidos
+	- [x] GET - /api/v1/pedidos/{id}
+	- [x] PUT - /api/v1/pedidos/{id}
+	- [x] DELETE - /api/v1/pedidos/{id}
+	- [x] PUT - /api/v1/atualizarpedido/{id}
 - [ ] Conteinerização
+	- [x] Dockerfile
+	- [x] .dockerignore
+	- [ ] Criação do container
 - [ ] Qualidade de Código e Testes
 
 ## Ambiente
