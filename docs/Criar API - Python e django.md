@@ -18,7 +18,7 @@
 	- [x] AtualizarPedido
 - [x] Routers
 	- [x] Interface navegável - http://localhost:8000/api/v1
-	- [x] Metodos HTTP
+	- [x] Metodos HTTP - API REST
 		- [x] GET 	- /api/v1/pedidos
 		- [x] POST 	-/api/v1/pedidos
 		- [x] GET 	- /api/v1/pedidos/{id}
