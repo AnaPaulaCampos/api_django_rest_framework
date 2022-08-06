@@ -2,7 +2,7 @@
 
 # Criar API - Python - Desafio Coco Bambu 
 
-## Baclog
+## Backlog
 
 - [x] Ambiente
 - [x] Configuração do Projeto
@@ -10,15 +10,18 @@
 	- [x] Design	
 - [x] Modelagem
 - [x] Serializer
+	- [x] Pedido
+	- [x] AtualizarPedido
 - [x] ViewSets
 - [x] Routers
-	- [x] GET 	- /api/v1
-	- [x] GET 	- /api/v1/pedidos
-	- [x] POST 	-/api/v1/pedidos
-	- [x] GET 	- /api/v1/pedidos/{id}
-	- [x] PUT 	- /api/v1/pedidos/{id}
-	- [x] DELETE 	- /api/v1/pedidos/{id}
-	- [x] PUT 	- /api/v1/atualizarpedido/{id}
+	- [x] Interface navegável - http://localhost:8000/api/v1
+	- [x] Metodos HTTP
+		- [x] GET 	- /api/v1/pedidos
+		- [x] POST 	-/api/v1/pedidos
+		- [x] GET 	- /api/v1/pedidos/{id}
+		- [x] PUT 	- /api/v1/pedidos/{id}
+		- [x] DELETE 	- /api/v1/pedidos/{id}
+		- [x] PUT 	- /api/v1/atualizarpedido/{id}
 - [ ] Conteinerização
 	- [x] Dockerfile
 	- [x] .dockerignore
