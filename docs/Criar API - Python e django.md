@@ -12,6 +12,35 @@
 - [x] Serializer
 - [x] ViewSets
 - [x] Routers
+- [ ] ## Urls
+
+### /api/v1
+
+### /api/v1/pedidos
+
+- GET
+
+### /api/v1/pedidos
+
+- POST
+
+### /api/v1/pedidos/{id}
+
+- GET
+
+### /api/v1/pedidos/{id}
+
+- PUT
+
+### /api/v1/pedidos/{id}
+
+- DELETE
+
+### /api/v1/atualizarpedidos/{id}
+
+- PUT
+
+
 - [ ] Conteinerização
 - [ ] Qualidade de Código e Testes
 
