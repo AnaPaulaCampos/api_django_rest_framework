@@ -12,13 +12,13 @@
 - [x] Serializer
 - [x] ViewSets
 - [x] Routers
-	- [x] GET - /api/v1
-	- [x] GET - /api/v1/pedidos
-	- [x] POST -/api/v1/pedidos
-	- [x] GET - /api/v1/pedidos/{id}
-	- [x] PUT - /api/v1/pedidos/{id}
-	- [x] DELETE - /api/v1/pedidos/{id}
-	- [x] PUT - /api/v1/atualizarpedido/{id}
+	- [x] GET 	- /api/v1
+	- [x] GET 	- /api/v1/pedidos
+	- [x] POST 	-/api/v1/pedidos
+	- [x] GET 	- /api/v1/pedidos/{id}
+	- [x] PUT 	- /api/v1/pedidos/{id}
+	- [x] DELETE 	- /api/v1/pedidos/{id}
+	- [x] PUT 	- /api/v1/atualizarpedido/{id}
 - [ ] Conteinerização
 	- [x] Dockerfile
 	- [x] .dockerignore
