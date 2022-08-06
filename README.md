@@ -1,6 +1,8 @@
-[](https://cocobambu.com/wp-content/uploads/2022/06/coco-bambu_logo-header.png)
+
+[![texto alt](https://cocobambu.com/wp-content/uploads/2022/06/coco-bambu_logo-header.png)](urldolink)
 
 # Criar API - Python - Desafio Coco Bambu 
+
 
 ## Backlog de Atividades
 
@@ -18,7 +20,7 @@
 	- [x] AtualizarPedido
 - [x] Routers
 	- [x] Interface navegável - http://localhost:8000/api/v1
-	- [x] Metodos HTTP
+	- [x] Metodos HTTP - API REST
 		- [x] GET 	- /api/v1/pedidos
 		- [x] POST 	-/api/v1/pedidos
 		- [x] GET 	- /api/v1/pedidos/{id}
@@ -39,16 +41,25 @@
 
 	- https://www.python.org/downloads/
 	- Marcar a opcao
+
 		- add python to path
+
 	- testar a instacao
+
 		- abrir o terminal
+
 			- python --version
 			- pip --version
+
 	- install virtualenv
+
 		- python -m venv env
 		- source ./env/Scripts/activate
+
 	- Arquivo de gerenciamento
+
 		- pip freeze > requirements.txt
+
 - Django
 
 	- abrir o terminal
