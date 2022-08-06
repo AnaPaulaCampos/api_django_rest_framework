@@ -35,7 +35,16 @@
 
 ## Ambiente
 
-### instalar 
+### Baixar do repositorio git e testar 
+
+- git clone https://github.com/AnaPaulaCampos/delivery-api
+- cd delivery-api
+- pip install -r requirements.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py runserver
+
+### instalar localmente
 
 - python
 
