@@ -2,17 +2,20 @@
 
 # Criar API - Python - Desafio Coco Bambu 
 
-## Backlog
+## Backlog de Atividades
 
 - [x] Ambiente
 - [x] Configuração do Projeto
 	- [x] Arquitetura
 	- [x] Design	
 - [x] Modelagem
+	- [x] Model - Pedido
 - [x] Serializer
 	- [x] Pedido
 	- [x] AtualizarPedido
 - [x] ViewSets
+	- [x] Pedido
+	- [x] AtualizarPedido
 - [x] Routers
 	- [x] Interface navegável - http://localhost:8000/api/v1
 	- [x] Metodos HTTP
@@ -36,25 +39,16 @@
 
 	- https://www.python.org/downloads/
 	- Marcar a opcao
-
 		- add python to path
-
 	- testar a instacao
-
 		- abrir o terminal
-
 			- python --version
 			- pip --version
-
 	- install virtualenv
-
 		- python -m venv env
 		- source ./env/Scripts/activate
-
 	- Arquivo de gerenciamento
-
 		- pip freeze > requirements.txt
-
 - Django
 
 	- abrir o terminal
